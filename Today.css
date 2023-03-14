@@ -1,0 +1,25 @@
+body{
+    background-image: url("images/wall.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f5f1f1;
+}
+input[Type=text],[Type=email]{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+}
+form{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+input[Type=Subscribe]{
+    background-color: #17e121;
+     width: 20%;
+    height: 30px;
+    border-radius: 10px;
+}

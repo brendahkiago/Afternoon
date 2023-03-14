@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Its Friday</title>
+    <script type="text/javascript">
+        function validate(){
+            var name=document.getElementById("name")
+             var email=document.getElementById("email")
+             var invest=document.getElementById("invest")
+             var date=document.getElementById("date")
+
+
+        if(name.value==""||email.value==""||invest.value==""||date.value=="") {
+             alert("FILL IN YOUR DETAILS");
+            return false;
+
+
+        }
+            else{
+                return true;
+            }
+        }
+
+    </script>
+
+    <link rel="stylesheet" href="fridayform.css">
+</head>
+<body>
+<form  onsubmit="return validate() "action="backgroundimage.html">
+   <fieldset>
+    <legend>Customer</legend><br>
+
+       <label for="name">Name</label><sup style="color: red">*</sup>
+       <input type="text" id="name"><br><br>
+
+       <label for="email">Email</label><sup style="color: red">*</sup>
+        <input type="email" id="email"><br><br>
+
+       <label for="invest">Investment</label>
+       <select name="" id="invest">
+           <option value="invest">invest</option>
+
+       </select><br><br>
+
+       <label for="date">Date joined</label><sup style="color: red">*</sup>
+       <input type="date" id="date"><br><br>
+
+       <label for="active">Active</label>
+       <input type="checkbox"><br><br>
+   </fieldset><br><br>
+
+    <input onclick="validate()" type="submit" value="OK">
+    <input type="submit" value="CANCEL">
+</form>
+</body>
+</html>

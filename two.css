@@ -1,0 +1,20 @@
+table{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+th,td{
+   border: 2px solid black;
+    text-align: center;
+}
+th{
+    background-color: #3cd944;
+}
+tr:hover{
+    background-color: #b220a6;
+}
+tr:nth-child(odd){
+    background-color: lightseagreen;
+}

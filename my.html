@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My</title>
+    <script type="text/javascript">
+        function validate(){
+
+            var name=document.getElementById("name");
+             var name=document.getElementById("subject");
+             var name=document.getElementById("phone");
+             var name=document.getElementById("email");
+             var name=document.getElementById("message");
+
+
+             if (name.value==""||subject.value==""||phone.value==""||email.value==""||message.value==""){
+                 alert("PLEASE FILL IN THE DETAILS!!!");
+                 return false;
+             }
+            else{
+                return true
+             }
+        }
+    </script>
+  <link rel="stylesheet" href="my.css">
+</head>
+<body>
+<form onsubmit=" return validate()" action="backgroundimage.html">
+
+  <legend style="text-align: center;font-size: 30px"><b>CONTACT US</b></legend><br><br>
+
+
+  <input type="text" id="name" placeholder="Name"><br><br>
+
+
+  <input type="text" id="subject" placeholder="Subject"><br><br>
+
+
+  <input type="text" id="phone" placeholder="Phone"><br><br>
+
+
+  <input type="email"id="email" placeholder="Email"><br><br>
+
+  <textarea name="" id="message" placeholder="Message" cols="40" rows="5"></textarea><br><br>
+
+
+  <input onclick="validate()" type="Submit" value="SUBMIT">
+
+
+
+
+</form>
+</body>
+</html>

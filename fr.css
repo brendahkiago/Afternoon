@@ -1,0 +1,14 @@
+form {
+    background-color: darkred;
+    margin: 80px;
+    padding: 80px;
+    color: #f5f1f1;
+
+}
+input[Type=submit]{
+    background-color: #f6940a;
+}
+input[Type=text],input[Type=email]{
+    width: 80%;
+    height: 30px;
+}

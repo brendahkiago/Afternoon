@@ -1,0 +1,12 @@
+form{
+    margin-right: 500;
+    margin-left:  500;
+    margin-top: 100;
+    margin-bottom: 100;
+    padding: 100px;
+    background-color: #b6647e;
+}
+input[type=text],input[type=email],input[type=date]{
+    box-shadow: 3px 3px 3px 3px black;
+}
+

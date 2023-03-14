@@ -1,0 +1,18 @@
+p{
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    text-indent: 10cm;
+    word-spacing: 2cm;
+    text-decoration: underline;
+    line-height: 2cm;
+    border: 4px  solid black;
+    outline: 5px solid gray;
+}
+ol{
+    list-style-type: square;
+    list-style-position:outside;
+
+}

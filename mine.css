@@ -1,0 +1,15 @@
+legend{
+    font-weight: bold;
+    font-size: 30px;
+}
+label{
+    float: left;
+    text-align: left;
+    width: 100px;
+}
+input{
+    float: left;
+}
+
+
+

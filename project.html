@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Project</title>
+  <style>
+   label{
+     float: left;
+     width: 100px;
+     text-align: left;
+   }
+  input{
+    float: left;
+  </style>
+
+
+
+
+  <script type="text/javascript">
+    function validate(){
+      var pname=document.getElementById("pname")
+      var assign=document.getElementById("assign")
+      var sd=document.getElementById("sd")
+      var ed=document.getElementById("ed")
+      var des=document.getElementById("des")
+
+
+      if(pname.value==""||assign.value==""||sd.value==""||ed.value==""||des.value==""){
+        alert(" FILL IN");
+        return false;
+      }
+      else{
+        return true;
+      }
+    }
+
+
+
+
+
+  </script>
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+<h1 style="text-align: center"><u>Project Management</u></h1>
+<form onclick="return validate()" action="backgroundimage.html">
+
+
+  <label for="pname">Project Name</label>
+  <input type="text"id="pname"placeholder="project name"><br><br>
+
+  <label for="assign">Assigned to</label>
+  <input type="text"id="assign"placeholder="Er Merry Pebsion"><br><br>
+
+
+  <label for="sd">Start Date</label>
+  <input type="date"id="sd"><br><br>
+
+
+  <label for="ed">End Date</label>
+  <input type="date" id="ed"><br><br>
+
+
+  <label for="priority">Priority</label>
+  <input type="radio" value="High">High
+ <input type="radio" value="Average">Average
+ <input type="radio" value="Low">Low<br><br>
+
+
+  <label for="des">Description</label>
+  <textarea name="" id="des" cols="30" rows="2"></textarea><br><br>
+
+
+  <input onsubmit="validate()" type="submit" value="Submit">
+
+
+
+
+
+
+
+
+
+  </form>
+</body>
+</html>
